@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Skills and Abilities",
+    "group": [{
+      "title": "Non technical",
+      "points": [
+        "Quick learner with a genuine interest in solving problems, and lateral thinking.",
+        "Excellent and effective communicator inside and outside of the workplace.",
+        "Intense interest in technological systems, and how they can be used to empower people and create information.",
+        "Disciplined team player and dedicated to self improvement and growth"
+      ]
+    }, {
+      "title": "Frontend",
+      "points": [
+        "Angular, React and supporting libraries such as mateirla design, bootstrap, ng-flex, moment, lodash etc",
+        "Rxjs stream based approach to architecture and module communication",
+        "Redux, ngrx, mobx, ngxs as a state orgranisation or MVC"
+      ]
+    }, {
+      "title": "Backend/Ops",
+      "points": [
+        "Nodejs, Nestjs, Express, API design and microservice architecture including JWT, middleware and other patterns.",
+        "Postgres, Sql and mongo for persistence layer",
+        "Docker in production and development including docker-compose and stack",
+        "VPS ubuntu, CentOS configuration for a hosting, including clustered nodes for hosting containers"
+      ]
+    }]
+  },
+  {
+    "title": "Education",
+    "group": [{
+      "title": "Bachelor of information Technology",
+      "meta": "Flinders University— 2011-2014"
+    }, {
+      "title": "High school",
+      "meta": "Aberfoyle park High school— 2011-2014"
+    }]
+  },
+  {
+    "title": "Employment history",
+    "group": [{
+      "title": "Senior Javascript developer, Polestar space applications",
+      "meta": "London, UK — Feb.2017-Present",
+      "points": [
+        "Design the application architecture to be implemented by the team, based on modern FE web tech (redux, rxjs, flex, etc)",
+        "Implement new features, including complicated asynchronous layouts, map interactivity and animations ",
+        "Implement mono repo solution for maintaining multiple applications making use of shared and reusable libraries",
+        "Refactor and clean existing code based on best practices"
+      ]
+    }, {
+      "title": "Javascript developer, Quidco marketing",
+      "meta": "London, UK — Apr.2016-Aug.2016",
+      "points": [
+        "Re-skin angular application with updated design and build process.",
+        "Implement new features and maintain the primary business application.",
+        "Use a team based workflow including scrum with agile development and multi branch, git flow processes."
+      ]
+    }, {
+      "title": "Javascript developer, Runpath",
+      "meta": "London, UK — Nov.2015-Mar.2016",
+      "points": [
+        "Extended and maintained an Angular app to provide a UI for multiple .NET based financial services.",
+        "Built a custom LESS framework and style guide development, along with gulp node build process."
+      ]
+    }, {
+      "title": "Lead frontend/Javascript developer, Hybrid marketing",
+      "meta": "Adelaide, SA — Sep.2014-Oct.2015",
+      "points": [
+        "Develop wordpress sites with customer portals, store locators, event calendars and other custom modules",
+        "Lead frontend developer on the AngularJS Thomas Farms Kitchen application"
+      ]
+    }, {
+      "title": "Web developer, Webedge Marketing",
+      "meta": "Adelaide, SA — Jun.2013-Sep.2014",
+      "points": [
+        "Built CRM web application suing cordova and nodejs"
+      ]
+    }]
+  },
+  {
+    "title": "Other pursuits",
+    "group": [{
+      "title": "Velocity App",
+      "points": [
+        "Built the FE architecture based on best practices and modern web tech (angular, redux, rxjs)",
+        "Design an API using NodeJS, Postgres, Express and docker",
+        "Configure CentOS, to host the application across load balanced multi node container cluster",
+        "Supporting work such as analytics, marketing, project management and more"
+      ]
+    }]
+  }
+]
