@@ -9,7 +9,6 @@
 }
 
 .rain {
-  // background: white;
   background: inherit;
   height: 200px;
   position: absolute;
@@ -34,12 +33,26 @@ $rain: 33;
     top: -$top;
   }
 
+  @-webkit-keyframes rain-#{$i} {
+    0% {
+      left: $left;
+      opacity: $opacity;
+      top: -$top;
+    }
+
+    100% {
+      opacity: 0;
+      top: $top + 40%;
+    }
+  }
+
   @Keyframes rain-#{$i} {
     0% {
       left: $left;
       opacity: $opacity;
       top: -$top;
     }
+
     100% {
       opacity: 0;
       top: $top + 40%;

@@ -2,9 +2,14 @@
   display: block;
   text-align: center;
   max-width: 450px;
-  margin: 50px auto;
+  margin: 0 auto;
+  padding-top: 50px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.text {
+  margin: 30px 0;
 }
 
 .links a{
@@ -17,6 +22,7 @@
   }
 
   fa-icon {
+    padding: 5px;
     font-size: 30px;
   }
 }

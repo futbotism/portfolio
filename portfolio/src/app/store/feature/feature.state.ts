@@ -10,7 +10,7 @@ export interface MediumPost {
   thumbnail: string;
   link: string;
   pubDate: string;
-  categories: string;
+  categories: string[];
 }
 
 interface MediumResponse {

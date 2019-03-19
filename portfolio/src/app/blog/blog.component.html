@@ -17,9 +17,11 @@
          appDynamicStyle="color: text;"
          fxLayoutAlign="space-between stretch"
          class="info">
-      <h3>{{post.title}}</h3>
       <h6>{{post.pubDate | date}}</h6>
-      <p>{{post.categories}}</p>
+      <h3>{{post.title}}</h3>
+      <div class="chips">
+        <p *ngFor="let category of post.categories">{{category}}</p>
+      </div>
     </div>
 
     <a class="link"
