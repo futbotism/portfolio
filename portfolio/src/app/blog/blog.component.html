@@ -1,0 +1,36 @@
+<div fxLayout="row wrap"
+     fxLayoutAlign="space-evenly center">
+
+  <article fxFlex="45"
+           fxFlex.lt-sm="100"
+           appDynamicStyle="border-color: accent;"
+           fxLayout="row"
+           fxLayoutAlign="space-evenly stretch"
+           *ngFor="let post of posts | async">
+
+    <div fxFlex="150px"
+         class="thumbnail"
+         [ngStyle]="getBgStyle(post.thumbnail)">
+    </div>
+
+    <div fxLayout="column"
+         appDynamicStyle="color: text;"
+         fxLayoutAlign="space-between stretch"
+         class="info">
+      <h3>{{post.title}}</h3>
+      <h6>{{post.pubDate | date}}</h6>
+      <p>{{post.categories}}</p>
+    </div>
+
+    <a class="link"
+       appDynamicStyle="background-color: accent;"
+       [href]="post.link"
+       target="_blank">
+      <fa-icon appDynamicStyle="color: text;"
+               [icon]="icons.faExternalLinkAlt">
+      </fa-icon>
+    </a>
+
+  </article>
+
+</div>

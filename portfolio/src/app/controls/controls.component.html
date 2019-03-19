@@ -1,0 +1,17 @@
+<button appDynamicStyle="background-color: accent;"
+        (click)="changeColor()">
+  <fa-icon appDynamicStyle="color: text;"
+           [icon]="icons.faFillDrip"></fa-icon>
+</button>
+
+<button appDynamicStyle="background-color: accent;"
+        (click)="pause()">
+  <fa-icon appDynamicStyle="color: text;"
+           *ngIf="!(isPaused | async)"
+           [icon]="icons.faPause">
+  </fa-icon>
+  <fa-icon appDynamicStyle="color: text;"
+           *ngIf="isPaused | async"
+           [icon]="icons.faPlay">
+  </fa-icon>
+</button>

@@ -1,0 +1,36 @@
+:host {
+  display: block;
+  text-align: center;
+  max-width: 450px;
+  margin: 50px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.links a{
+  text-decoration: none;
+
+  fa-icon,
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  fa-icon {
+    font-size: 30px;
+  }
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  max-width: 100%;
+  border-style: solid;
+}
+
+h1 {
+
+  span {
+    font-size: 40px;
+  }
+}

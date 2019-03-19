@@ -1,0 +1,57 @@
+:host {
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
+  width: 90%;
+}
+
+article {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: solid 3px;
+  position: relative;
+}
+
+h3,
+h6,
+p {
+  margin: 0;
+}
+
+
+p {
+  font-size: 10px;
+}
+
+.thumbnail {
+  display: block;
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.info {
+  padding-left: 10px;
+}
+
+.link {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  border: none;
+  transform: scale(1);
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}

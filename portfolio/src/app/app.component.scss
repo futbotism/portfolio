@@ -1,0 +1,21 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+main {
+  height: 100%;
+}
+
+div {
+  width: 100%;
+  padding: 0 20px;
+  max-height: 100%;
+  overflow: auto;
+}
+
+app-controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
