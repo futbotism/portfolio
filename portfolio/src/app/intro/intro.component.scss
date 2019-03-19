@@ -12,6 +12,18 @@
   margin: 30px 0;
 }
 
+.icons {
+  fa-icon {
+    padding: 5px;
+    transition: transform 0.3s ease;
+    font-size: 25px;
+
+    &:hover {
+      transform: scale(2);
+    }
+  }
+}
+
 .links a{
   text-decoration: none;
 

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faAngular, faNode, faDocker, faReact, faCss3Alt, faHtml5, faGithub, faJs } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-intro',
@@ -11,7 +11,15 @@ export class IntroComponent implements OnInit {
 
   icons = {
     faFileAlt,
-    faLinkedin
+    faLinkedin,
+    faAngular,
+    faNode,
+    faDocker,
+    faReact,
+    faCss3Alt,
+    faHtml5,
+    faGithub,
+    faJs
   };
 
   constructor() { }
