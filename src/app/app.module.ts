@@ -15,6 +15,7 @@ import { DynamicStyleDirective } from './dynamic-style/dynamic-style.directive';
 import { IntroComponent } from './intro/intro.component';
 import { FeatureState } from './store';
 import { ColorState } from './store/color/color.state';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ColorState } from './store/color/color.state';
     DynamicStyleDirective,
     ControlsComponent,
     BackgroundComponent,
-    BlogComponent
+    BlogComponent,
+    LandingComponent
   ],
   imports: [
     AppRoutingModule,

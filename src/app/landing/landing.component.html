@@ -1,0 +1,11 @@
+<ng-container *ngIf="{
+  activeFeature: activeFeature | async
+} as state">
+
+  <app-intro></app-intro>
+
+  <app-controls></app-controls>
+
+  <app-blog></app-blog>
+
+</ng-container>
